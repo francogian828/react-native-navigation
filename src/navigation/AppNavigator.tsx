@@ -14,16 +14,7 @@ const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
     return (
         <NavigationContainer>
-            <Stack.Navigator screenOptions={{
-                headerStyle: {
-                    backgroundColor: '#2C3E50', // Change this to your desired color
-                },
-                headerTintColor: '#fff', // This changes the color of the header text and back button
-                headerTitleStyle: {
-                    fontWeight: 'bold', // Optional: Make the title bold
-                },
-                headerShadowVisible: false
-            }}>
+            <Stack.Navigator>
                 <Stack.Screen name="Login" component={LoginScreen} />
                 <Stack.Screen name="Register" component={RegisterScreen} />
                 <Stack.Screen name="Test" component={TestScreen} />

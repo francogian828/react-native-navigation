@@ -10,7 +10,7 @@ const TestScreen: React.FC<Props> = ({ navigation }) => {
                     <Text style={styles.buttonText}>Login</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress={navigation.goBack}>
-                    <Text style={styles.buttonText}>Test</Text>
+                    <Text style={styles.buttonText}>Back</Text>
                 </TouchableOpacity>
             </View>
         </View>
